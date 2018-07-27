@@ -1,4 +1,5 @@
 'use strict';
+const interactJs = require('interactjs');
 $(function() {
 
     const bin_size = 100;
