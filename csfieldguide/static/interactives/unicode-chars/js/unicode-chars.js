@@ -13,7 +13,7 @@ $decimal.keyup(function() {
   return $char.val(String.fromCodePoint(Number($decimal.val())));
 });
 
-$char.keypress(function(event) {
+$char.change(function(event) {
   if (Array.from($char.val()).length !== 0) {
     return event.preventDefault();
   }
